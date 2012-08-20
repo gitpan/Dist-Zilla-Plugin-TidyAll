@@ -1,0 +1,10 @@
+Changes
+INSTALL
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+lib/Dist/Zilla/Plugin/TidyAll.pm
+t/01-use.t
+tidyall.ini

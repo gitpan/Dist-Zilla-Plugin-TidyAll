@@ -1,0 +1,33 @@
+NAME
+    Dist::Zilla::Plugin::TidyAll - Apply tidyall to files in Dist::Zilla
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+        # dist.ini
+        [TidyAll]
+
+        # or
+        [TidyAll]
+        tidyall_ini = /path/to/tidyall.ini
+
+DESCRIPTION
+    Processes each file with tidyall, via the Dist::Zilla::Role::FileMunger
+    role.
+
+    You may specify the path to the tidyall.ini; otherwise it is expected to
+    be in the dzil root (same as dist.ini).
+
+SEE ALSO
+    tidyall
+
+AUTHOR
+    Jonathan Swartz <swartz@pobox.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2011 by Jonathan Swartz.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
