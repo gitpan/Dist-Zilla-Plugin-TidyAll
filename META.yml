@@ -19,7 +19,9 @@ no_index:
     - lib/Dist/Zilla/Plugin/TidyAll/Test
   file:
     - lib/Dist/Zilla/Plugin/TidyAll/Util.pm
+requires:
+  Code::TidyAll: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-TidyAll
   repository: git://github.com/jonswar/perl-dist-zilla-plugin-tidyall.git
-version: 0.01
+version: 0.02

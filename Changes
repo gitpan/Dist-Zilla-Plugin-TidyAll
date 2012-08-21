@@ -2,6 +2,10 @@ Revision history for Dist-Zilla-Plugin-TidyAll
 
 ** denotes an incompatible change
 
+0.02  Aug 20, 2012
+
+- Add Code::TidyAll to dependencies
+
 0.01 Aug 19, 2012
 
 - Initial version

@@ -28,6 +28,11 @@
             "ExtUtils::MakeMaker" : "6.30"
          }
       },
+      "runtime" : {
+         "requires" : {
+            "Code::TidyAll" : 0
+         }
+      },
       "test" : {
          "requires" : {
             "Test::More" : 0
@@ -46,6 +51,6 @@
          "web" : "https://github.com/jonswar/perl-dist-zilla-plugin-tidyall"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 
