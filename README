@@ -2,7 +2,7 @@ NAME
     Dist::Zilla::Plugin::TidyAll - Apply tidyall to files in Dist::Zilla
 
 VERSION
-    version 0.02
+    version 0.03
 
 SYNOPSIS
         # dist.ini

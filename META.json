@@ -30,7 +30,8 @@
       },
       "runtime" : {
          "requires" : {
-            "Code::TidyAll" : 0
+            "Code::TidyAll" : "0.05",
+            "Dist::Zilla" : "2.101310"
          }
       },
       "test" : {
@@ -51,6 +52,6 @@
          "web" : "https://github.com/jonswar/perl-dist-zilla-plugin-tidyall"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

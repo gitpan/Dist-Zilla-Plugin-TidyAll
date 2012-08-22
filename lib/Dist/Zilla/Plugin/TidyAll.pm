@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::TidyAll;
 BEGIN {
-  $Dist::Zilla::Plugin::TidyAll::VERSION = '0.02';
+  $Dist::Zilla::Plugin::TidyAll::VERSION = '0.03';
 }
 use Cwd qw(realpath);
 use Code::TidyAll;
@@ -61,7 +61,7 @@ Dist::Zilla::Plugin::TidyAll - Apply tidyall to files in Dist::Zilla
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

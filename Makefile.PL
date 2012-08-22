@@ -22,9 +22,10 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Dist::Zilla::Plugin::TidyAll',
   'PREREQ_PM' => {
-    'Code::TidyAll' => '0'
+    'Code::TidyAll' => '0.05',
+    'Dist::Zilla' => '2.101310'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }
